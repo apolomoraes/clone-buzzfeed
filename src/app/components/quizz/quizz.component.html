@@ -7,8 +7,8 @@
   <h2>{{ questionSelected.question }}</h2>
 
   <div class="quizz__options">
-    <button class="btn-option">
-      option
+    <button *ngFor="let option of questionSelected.options" (click)="playerChoose(option.alias)" class="btn-option">
+      {{ option.name }}
     </button>
   </div>
 
