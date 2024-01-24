@@ -4,9 +4,9 @@
     <h1>{{ title }}</h1>
   </div>
 
-  <h2>{{ questionSelected.question }}</h2>
+  <h2 *ngIf=!finished>{{ questionSelected.question }}</h2>
 
-  <div class="quizz__options">
+  <div *ngIf=!finished class="quizz__options">
     <button *ngFor="let option of questionSelected.options" (click)="playerChoose(option.alias)" class="btn-option">
       {{ option.name }}
     </button>
@@ -14,7 +14,7 @@
 
   <div *ngIf=finished class="quizz__results">
     <h3>O seu resultado é:</h3>
-    <p>Resposta Selecionada</p>
+    <p>{{ answerSelected }}</p>
   </div>
 
 </div>
