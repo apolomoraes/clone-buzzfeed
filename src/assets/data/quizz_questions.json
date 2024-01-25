@@ -46,6 +46,56 @@
         {"id": 1, "name":"O Terrivel", "alias":"A"},
         {"id": 2, "name":"Amigo da vizinhança", "alias":"B"}
       ]
+    },
+    {
+      "id": 6,
+      "question": "Se você pudesse escolher um veículo para usar em suas aventuras, qual seria?",
+      "options": [
+        {"id": 1, "name": "Carro veloz", "alias": "A"},
+        {"id": 2, "name": "Jato particular", "alias": "B"},
+        {"id": 3, "name": "Motocicleta estilosa", "alias": "A"},
+        {"id": 4, "name": "Asas voadoras", "alias": "B"}
+      ]
+    },
+    {
+      "id": 7,
+      "question": "O que você prefere fazer nas horas vagas?",
+      "options": [
+        {"id": 1, "name": "Planejar estratégias malignas", "alias": "A"},
+        {"id": 2, "name": "Treinar para aprimorar habilidades", "alias": "B"},
+        {"id": 3, "name": "Causar caos na cidade", "alias": "A"},
+        {"id": 4, "name": "Ajudar a comunidade voluntariamente", "alias": "B"}
+      ]
+    },
+    {
+      "id": 8,
+      "question": "Se pudesse escolher um superpoder adicional, qual seria?",
+      "options": [
+        {"id": 1, "name": "Invisibilidade", "alias": "A"},
+        {"id": 2, "name": "Telecinese", "alias": "B"},
+        {"id": 3, "name": "Controle do tempo", "alias": "A"},
+        {"id": 4, "name": "Leitura de mentes", "alias": "B"}
+      ]
+    },
+    {
+      "id": 9,
+      "question": "O que te motivaria mais a agir em prol do bem?",
+      "options": [
+        {"id": 1, "name": "Recompensas materiais", "alias": "A"},
+        {"id": 2, "name": "Ver o sorriso das pessoas", "alias": "B"},
+        {"id": 3, "name": "Domínio e poder sobre os outros", "alias": "A"},
+        {"id": 4, "name": "Construir um mundo melhor para as futuras gerações", "alias": "B"}
+      ]
+    },
+    {
+      "id": 10,
+      "question": "Como você lidaria com um arqui-inimigo?",
+      "options": [
+        {"id": 1, "name": "Eliminá-lo a qualquer custo", "alias": "A"},
+        {"id": 2, "name": "Tentar redimir e trazer para o lado bom", "alias": "B"},
+        {"id": 3, "name": "Usar seus pontos fracos a seu favor", "alias": "A"},
+        {"id": 4, "name": "Negociar uma trégua para evitar mais conflitos", "alias": "B"}
+      ]
     }
   ],
   "results":{
